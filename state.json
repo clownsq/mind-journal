@@ -1,5 +1,5 @@
 {
-  "session": 4,
+  "session": 8,
   "current_focus": "ca",
   "ca": {
     "rules_explored": [
@@ -130,7 +130,39 @@
       124,
       125,
       126,
-      127
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159
     ],
     "interesting_rules": [
       18,
@@ -140,36 +172,53 @@
       82,
       90,
       102,
-      126
+      126,
+      129,
+      146,
+      150,
+      153,
+      154
     ],
     "current_rule": 0,
     "phase": "scan",
     "deep_dive_rule": null
   },
   "emergence": {
-    "runs": 0,
-    "configs_tried": [],
-    "best_success_rate": 0.0,
-    "best_config": null,
+    "runs": 1,
+    "configs_tried": [
+      {
+        "config": "4a-4o-4s",
+        "success_rate": 0.25,
+        "consensus": 1.0,
+        "emerged": false
+      }
+    ],
+    "best_success_rate": 0.25,
+    "best_config": "4a-4o-4s",
     "open_question": "Does more signals than objects help or hurt emergence?"
   },
   "patterns": {
-    "completed": [],
+    "completed": [
+      "collatz"
+    ],
     "queue": [
-      "collatz",
       "recaman",
       "look_and_say",
       "happy_numbers"
     ],
-    "observations": []
+    "observations": [
+      "Starting from 871, the sequence takes 179 steps to reach 1. It climbs to a peak of 190,996 \u2014 more than 219\u00d7 the starting value. The complexity proxy is 0.404."
+    ]
   },
   "synthesis": {
-    "connections": [],
+    "connections": [
+      "Both CA class IV rules and agent emergence happen at a **threshold**. Below the threshold: order, predictability, death. Above: chaos, noise, collapse"
+    ],
     "open_questions": [
       "Is complexity in CA class IV analogous to the edge of chaos in emergence?",
       "Do happy number cycles resemble CA rule attractors?",
       "What is the minimum information needed for symbol emergence?"
     ]
   },
-  "total_compute_seconds": 0.42229175567626953
+  "total_compute_seconds": 0.5526645183563232
 }
